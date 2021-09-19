@@ -243,6 +243,7 @@ a {
   min-height: 60vh;
   inset: 0;
   overflow: hidden;
+  border-radius: 0 5em 0;
 }
 
 .infrastructure .container {
@@ -400,6 +401,10 @@ footer .container {
     margin-top: 15em;
   }
 
+  .infrastructure .section-body p {
+    padding: 0;
+  }
+
   .features {
     padding-bottom: 2em;
   }
@@ -430,5 +435,41 @@ footer .container {
   .footer-nav-list {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    padding: 3em 0;
+    background-size: 500%;
+    background-position: 40% 40%;
+  }
+
+  .intro-title {
+    margin-top: 5em;
+    font-size: 2.2rem;
+  }
+
+  .future-design {
+    padding-top: 5em;
+  }
+
+  .future-design .section-title {
+    font-size: 1.7rem;
+  }
+
+  .circles-pattern-wrapper {
+    width: 160%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .infrastructure .section-img-wrapper {
+    width: 100%;
+  }
+
+  .infrastructure .section-body {
+    margin-top: 13em;
+    padding-bottom: 5em;
   }
 }
