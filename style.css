@@ -426,6 +426,102 @@ footer .container {
     display: none;
   }
 
+  .menu.active ~ .menu-open {
+    display: none;
+  }
+
+  .menu.active ~ .menu-close {
+    display: block;
+  }
+
+  .menu.active .nav-actions-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-item:last-of-type {
+    margin-bottom: 2em;
+  }
+
+  .nav-item.active .inner-nav-list {
+    position: static;
+    padding: 0;
+    width: 100%;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.5em;
+    color: var(--color-very-dark-blue);
+  }
+
+  .nav-item.active .nav-link {
+    color: #8f8f8f;
+  }
+
+  .inner-nav-item {
+    margin: 1.5em 0;
+  }
+
+  .login {
+    color: var(--color-very-dark-blue);
+    font-size: 1.1rem;
+  }
+
+  .signup {
+    background: linear-gradient(
+      to right,
+      var(--grad-color-very-light-red),
+      var(--grad-color-light-red)
+    );
+    color: var(--color-white);
+    font-size: 1.1rem;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+  }
+
+  .signup:hover,
+  .signup:focus {
+    background: var(--color-white);
+    color: var(--color-light-red);
+    border-color: var(--color-light-red);
+  }
+
+  .menu.active {
+    position: absolute;
+    display: block;
+    background-color: var(--color-white);
+    top: 8em;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: auto;
+    padding: 2em;
+    border-radius: 0.3em;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    color: var(--color-very-dark-blue);
+  }
+
   .navbar {
     justify-content: space-between;
   }
