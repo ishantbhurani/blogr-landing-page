@@ -253,11 +253,12 @@ a {
 .infrastructure .section-body {
   margin-top: 7em;
   width: 50%;
+  padding-left: 5em;
 }
 
 .infrastructure .section-body p {
   color: var(--color-white);
-  padding-right: 7em;
+  padding-right: 2em;
 }
 
 .infrastructure .section-body h3 {
