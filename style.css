@@ -108,6 +108,11 @@ a {
   color: var(--color-white);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: underline;
+}
+
 .inner-nav-list {
   display: none;
 }
@@ -129,6 +134,17 @@ a {
   border-radius: 3em;
   text-transform: capitalize;
   font-weight: 500;
+  outline: transparent;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+
+.signup:hover,
+.signup:focus,
+.primary-cta:hover,
+.primary-cta:focus {
+  background-color: var(--color-very-light-red);
+  color: var(--color-white);
 }
 
 .icon-arrow {
@@ -163,6 +179,15 @@ a {
   border-radius: 3em;
   margin-left: 0.8em;
   font-weight: 500;
+  outline: transparent;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+
+.secondary-cta:hover,
+.secondary-cta:focus {
+  background-color: var(--color-white);
+  color: var(--color-light-red);
 }
 
 /* Future Design */
@@ -325,6 +350,11 @@ footer .container {
   font-size: 0.9rem;
   margin-bottom: 1em;
   color: var(--color-grayish-blue);
+}
+
+.footer-nav-inner-link:hover,
+.footer-nav-inner-link:focus {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1000px) {
