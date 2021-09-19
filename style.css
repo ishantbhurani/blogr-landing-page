@@ -191,7 +191,7 @@ a {
   width: 100%;
 }
 
-.section-body {
+.future-design .section-body {
   margin-top: 5em;
   width: 40%;
 }
@@ -210,4 +210,58 @@ a {
   line-height: 1.8;
   color: var(--color-very-dark-grayish-blue);
   font-size: 0.9rem;
+}
+
+/* Infrastructure */
+.infrastructure {
+  position: relative;
+  background-color: var(--color-very-dark-blue);
+  min-height: 60vh;
+  border-radius: 0 5em 0;
+}
+
+.infrastructure img {
+  width: 100%;
+}
+
+.circles-pattern-wrapper {
+  position: absolute;
+  left: -14em;
+  bottom: -5em;
+}
+
+.infrastructure .section-img-wrapper {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 2;
+}
+
+.test {
+  position: absolute;
+  min-height: 60vh;
+  inset: 0;
+  overflow: hidden;
+}
+
+.infrastructure .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.infrastructure .section-body {
+  margin-top: 7em;
+  width: 50%;
+}
+
+.infrastructure .section-body p {
+  color: var(--color-white);
+  padding-right: 7em;
+}
+
+.infrastructure .section-body h3 {
+  font-size: 2.2rem;
+  color: var(--color-white);
+  margin-bottom: 0.5em;
 }
