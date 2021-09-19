@@ -117,6 +117,39 @@ a {
   display: none;
 }
 
+.nav-item {
+  position: relative;
+}
+
+.nav-item.active img {
+  transform: rotate(180deg);
+}
+
+.nav-item.active .inner-nav-list {
+  display: block;
+}
+
+.inner-nav-list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  font-weight: 300;
+  padding: 2em 2em 1em 1.5em;
+  width: 11em;
+  border-radius: 0.3em;
+  top: 3em;
+  left: -1.5em;
+}
+
+.inner-nav-item {
+  margin-bottom: 1em;
+}
+
+.inner-nav-item:hover,
+.inner-nav-item:focus {
+  font-weight: bold;
+}
+
 .nav-actions-list {
   display: flex;
   align-items: center;
