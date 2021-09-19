@@ -265,3 +265,30 @@ a {
   color: var(--color-white);
   margin-bottom: 0.5em;
 }
+
+/* Features */
+
+.features {
+  padding: 12em 0 15em;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.features .section-img-wrapper {
+  position: absolute;
+  top: 7em;
+  left: -18em;
+}
+
+.features .section-img-wrapper img {
+  width: 100%;
+}
+
+.features .section-body {
+  margin-top: 5em;
+  width: 40%;
+  margin-left: auto;
+}
