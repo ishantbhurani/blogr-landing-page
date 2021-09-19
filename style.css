@@ -292,3 +292,34 @@ a {
   width: 40%;
   margin-left: auto;
 }
+
+/* Footer */
+footer {
+  padding: 5em 0;
+  background-color: var(--color-very-dark-black-blue);
+  border-top-right-radius: 5em;
+}
+
+footer .container {
+  display: flex;
+  gap: 10em;
+}
+
+.footer-nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  width: 60%;
+}
+
+.footer-nav-link {
+  font-weight: 600;
+  margin-bottom: 2em;
+  color: var(--color-white);
+}
+
+.footer-nav-inner-link {
+  font-size: 0.9rem;
+  margin-bottom: 1em;
+  color: var(--color-grayish-blue);
+}
