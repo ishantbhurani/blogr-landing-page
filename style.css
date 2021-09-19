@@ -42,6 +42,8 @@ body {
 
 /* Global */
 h1,
+h2,
+h3,
 .intro-subtitle {
   font-family: var(--font-overpass);
 }
@@ -161,4 +163,51 @@ a {
   border-radius: 3em;
   margin-left: 0.8em;
   font-weight: 500;
+}
+
+/* Future Design */
+.future-design {
+  padding: 10em 0 15em;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  color: var(--color-very-dark-blue);
+  text-align: center;
+}
+
+.future-design .section-img-wrapper {
+  position: absolute;
+  top: 4em;
+  right: -18em;
+}
+
+.future-design .section-img-wrapper img {
+  width: 100%;
+}
+
+.section-body {
+  margin-top: 5em;
+  width: 40%;
+}
+
+.section-body li {
+  margin-bottom: 4em;
+}
+
+.section-body h3 {
+  color: var(--color-very-dark-blue);
+  margin-bottom: 1em;
+  font-size: 1.6rem;
+}
+
+.section-body p {
+  line-height: 1.8;
+  color: var(--color-very-dark-grayish-blue);
+  font-size: 0.9rem;
 }
